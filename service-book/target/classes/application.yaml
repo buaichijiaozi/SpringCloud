@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8201
 spring:
   application:
     name: bookservice
@@ -11,4 +11,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8888/eureka
+      defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka

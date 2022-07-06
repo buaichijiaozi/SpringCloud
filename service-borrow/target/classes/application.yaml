@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port: 8301
 spring:
   application:
     name: borrowservice
@@ -12,4 +12,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8888/eureka
+      defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka
