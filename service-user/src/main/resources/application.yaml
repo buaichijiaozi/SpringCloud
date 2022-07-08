@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8101
 spring:
   application:
     name: userservice
@@ -8,7 +8,8 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/springcloudstudy
     username: root
     password: root
+
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8888/eureka
+      defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka

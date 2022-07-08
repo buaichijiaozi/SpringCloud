@@ -1,14 +1,9 @@
 server:
-  port: 8082
+  port: 8201
 spring:
   application:
     name: bookservice
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/springcloudstudy
-    username: root
-    password: root
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8888/eureka
+      defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka
